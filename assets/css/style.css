@@ -1,0 +1,94 @@
+body {
+    background-image: url('../image/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.-container {
+    background-color: #e7e7e7a9;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+
+.page {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+nav {
+    width: 15%;
+}
+
+main {
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside {
+    /* width: 10%; */
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.feedback {
+    color:white;
+    background-color: #fb2323e0;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.center {
+    text-align: center;
+}
+
+.success , .fail {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.success {
+    background-color: #3edf3b;
+}
+
+.fail {
+    background-color: #fb2323e0;
+}
+
+.title {
+    color: white
+}
+
+.modal-body td{
+    font-size: medium;
+    color: black;
+    padding-right:50px;
+}
+
+.modal-body{
+    margin: auto;
+}
+
+label{
+    color: black;
+}
